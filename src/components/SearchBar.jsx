@@ -15,7 +15,7 @@ function SearchBar() {
     }
     useEffect(() => {
         var myHeaders = new Headers();
-        var access_token = "85285e73480255a7ff2968db8c82baaec0fbee2080c8f6e3e1c4695160c6d401";
+        var access_token = "";
         myHeaders.append("Authorization", `Bearer ${access_token}`);
 
         //var raw = "";
